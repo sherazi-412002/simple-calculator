@@ -2,6 +2,8 @@
 
 import inquirer from "inquirer";
 
+//for taking data from user make variable with using prompt
+
 const answer = await inquirer.prompt([
   { message: "Enter your first number", type: "number", name: "firstNumber" },
   { message: "Enter your second number", type: "number", name: "secondNumber" },
@@ -26,4 +28,3 @@ if (answer.operator === "addition"){
     console.log("please select valid operator")
 }
 
-console.log("The End");

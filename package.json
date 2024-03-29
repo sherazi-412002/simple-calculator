@@ -1,6 +1,6 @@
 {
-  "name": "shah86-simple_calculator1",
-  "version": "1.0.1",
+  "name": "shah86-simple-calculator1",
+  "version": "1.0.2",
   "description": "this is simple calculator",
   "main": "index.js",
   "type": "module",
